@@ -25,7 +25,7 @@ A responsive image search application built with React.js, integrating REST APIs
 
 ## 🔗 Live Demo
 
-https://pixigo-apiwebapp-mk.vercel.app/
+https://pixigo.vercel.app/
 
 ---
 
