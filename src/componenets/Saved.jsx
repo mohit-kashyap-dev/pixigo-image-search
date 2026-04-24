@@ -12,7 +12,7 @@ const Saved = ({saved, setSaved, loader}) => {
     <>
        <div className="container-fluid text-center" id='top' style={myStyle}>
 
-{loader | saved.length === 0 ? (
+{loader || saved.length === 0 ? (
     <Loader/>
 ) : (
     <>

@@ -37,7 +37,7 @@ const Navbar = ({setSearch}) => {
   
   {location.pathname === "/" ? (
         <div className="mb-3">
-        <input type="search" className="form-control bg-dark text-light" id="search" onChange={(e) => setSearch(e.target.value)}/>
+        <input type="search" className="form-control bg-dark text-light" id="search" onChange={(e) => setSearch(e.target.value)} />
       </div>
   ) : "" }
     
